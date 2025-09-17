@@ -11,13 +11,38 @@ const Footer = () => {
 
   const handleFooterFormSubmit = (e) => {
     e.preventDefault();
-    console.log("Footer form submitted:", footerForm);
-    alert("Thank you for your message!");
+    
+    // Format message for WhatsApp
+    const whatsappMessage = `New message from Customer:%0A%0AEmail: ${footerForm.email}%0AMessage: ${footerForm.message}`;
+    
+    // WhatsApp business number (replace with your actual number)
+    const whatsappNumber = "919742807007";
+    
+    // Create WhatsApp URL
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+    
+    // Open WhatsApp in a new tab
+    window.open(whatsappUrl, '_blank');
+    
+    // Reset form
     setFooterForm({ email: '', message: '' });
+    
+    // Show confirmation
+    alert("Thank you for your message! You'll be redirected to WhatsApp.");
+  };
+
+  // Function to handle email click
+  const handleEmailClick = () => {
+    window.location.href = "mailto:sales@terragence.com";
+  };
+
+  // Function to handle phone click
+  const handlePhoneClick = () => {
+    window.location.href = "tel:+919742807007";
   };
 
   return (
-  <footer className="bg-slate-900 text-white">
+    <footer className="bg-slate-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 sm:gap-12">
           
@@ -39,7 +64,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-slate-300 text-sm leading-relaxed">
-              Intelligence at the Core of Every Solution. Your trusted  trading partner for
+              Intelligence at the Core of Every Solution. Your trusted trading partner for
               high-quality industrial and medical products.
             </p>
             <div className="mt-4 space-y-2 text-sm">
@@ -47,17 +72,21 @@ const Footer = () => {
                 <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
                 <span>
                   Terragence Instruments Private Limited
-                 
                   Farangipete Bantwal, India
-                  
                   PIN CODE: 574 143
                 </span>
               </div>
-              <div className="flex items-center gap-2 text-slate-300">
+              <div 
+                className="flex items-center gap-2 text-slate-300 cursor-pointer hover:text-blue-400 transition-colors"
+                onClick={handleEmailClick}
+              >
                 <Mail className="w-4 h-4" />
                 <span>sales@terragence.com</span>
               </div>
-              <div className="flex items-center gap-2 text-slate-300">
+              <div 
+                className="flex items-center gap-2 text-slate-300 cursor-pointer hover:text-blue-400 transition-colors"
+                onClick={handlePhoneClick}
+              >
                 <Phone className="w-4 h-4" />
                 <span>+919742807007</span>
               </div>
@@ -134,7 +163,7 @@ const Footer = () => {
 
           {/* Quick Message Form */}
           <div className="lg:col-span-4">
-            <h4 className="font-semibold text-white mb-4">Quick Message</h4>
+            <h4 className="font-semibold text-white mb-4">Quick Message via WhatsApp</h4>
             <form onSubmit={handleFooterFormSubmit} className="space-y-3">
               <input
                 type="email"
@@ -160,7 +189,7 @@ const Footer = () => {
                 type="submit"
                 className="w-full px-4 py-2 bg-amber-500 hover:bg-amber-600 text-white font-semibold rounded-lg transition-colors duration-300 flex items-center justify-center"
               >
-                Send <Send className="w-4 h-4 ml-2" />
+                Send via WhatsApp <Send className="w-4 h-4 ml-2" />
               </button>
             </form>
           </div>
