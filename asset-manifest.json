@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Terragence/static/css/main.9cc9572c.css",
-    "main.js": "/Terragence/static/js/main.63281686.js",
+    "main.js": "/Terragence/static/js/main.8a9930f4.js",
     "static/js/453.2a225092.chunk.js": "/Terragence/static/js/453.2a225092.chunk.js",
     "index.html": "/Terragence/index.html",
     "main.9cc9572c.css.map": "/Terragence/static/css/main.9cc9572c.css.map",
-    "main.63281686.js.map": "/Terragence/static/js/main.63281686.js.map",
+    "main.8a9930f4.js.map": "/Terragence/static/js/main.8a9930f4.js.map",
     "453.2a225092.chunk.js.map": "/Terragence/static/js/453.2a225092.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9cc9572c.css",
-    "static/js/main.63281686.js"
+    "static/js/main.8a9930f4.js"
   ]
 }
