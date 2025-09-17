@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Mail, MapPin, Zap, Cog, Activity, Stethoscope, Send, House, Book, ShoppingCart, Target, User, Phone } from "lucide-react";
+import { Mail, MapPin, Zap, Cog, Activity, Stethoscope, Send, House, Book, ShoppingCart, Target, User, Phone, ExternalLink } from "lucide-react";
 
 const createPageUrl = (pageName) => {
   return `/${pageName.toLowerCase().replace(/\s+/g, '-')}`;
@@ -39,6 +39,11 @@ const Footer = () => {
   // Function to handle phone click
   const handlePhoneClick = () => {
     window.location.href = "tel:+919742807007";
+  };
+
+  // Function to handle Bright Media click
+  const handleBrightMediaClick = () => {
+    window.open("https://brightmedia.tech", "_blank");
   };
 
   return (
@@ -196,7 +201,14 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-slate-800 mt-8 sm:mt-12 pt-6 sm:pt-8 text-center text-sm text-slate-400">
-          © {new Date().getFullYear()} Terragence Instruments Pvt Ltd. | Site by Bright Media.
+          © {new Date().getFullYear()} Terragence Instruments Pvt Ltd. | Site by{" "}
+          <span 
+            className="text-amber-400 hover:text-amber-300 cursor-pointer underline transition-colors inline-flex items-center"
+            onClick={handleBrightMediaClick}
+          >
+            Bright Media
+            <ExternalLink className="w-3 h-3 ml-1" />
+          </span>
         </div>
       </div>
     </footer>
