@@ -88,8 +88,8 @@ export default function Contact() {
                 <MapPin className="w-6 h-6 sm:w-8 sm:h-8" />
               </div>
               <h3 className="text-lg sm:text-xl font-bold text-slate-900 mb-2">Office</h3>
-              <p className="text-slate-600 mb-2 text-sm sm:text-base">Terragence Instruments Private Limited</p>
-              <p className="text-xs sm:text-sm text-slate-500">PIN CODE: 574 143, Farangipete Bantwal, India</p>
+              <p className="text-slate-600 mb-2 text-sm sm:text-base">TerraX Trading And Services</p>
+              <p className="text-xs sm:text-sm text-slate-500"> Farangipete Bantwal, India, PIN CODE: 574 143</p>
             </div>
           </div>
         </div>

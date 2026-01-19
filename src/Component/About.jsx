@@ -24,7 +24,7 @@ export default function About() {
         
         <div className="relative max-w-7xl mx-auto text-center z-10">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 mt-5">
-            About Terragence
+            About TerraX
           </h1>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto">
             Building long-term partnerships through integrity, quality, and service excellence.
@@ -49,10 +49,10 @@ export default function About() {
             <div className="prose prose-lg">
               <h3 className="text-3xl font-bold text-slate-900">A Trusted Trading Company</h3>
               <p className="text-slate-600 leading-[1.75]">
-                Terragence Instruments Private Limited is a trusted trading company, based in India, specializing in Electrical, Mechanical, Instrumentation, and Medical Products. We work with global manufacturers and suppliers to provide industries with high-quality, tested products.
+                TerraX Trading And Services is a trusted trading company, based in India, specializing in Electrical, Mechanical, Instrumentation, and Medical Products. We work with global manufacturers and suppliers to provide industries with high-quality, tested products.
               </p><br/>
               <p className="text-slate-600 leading-[1.75]">
-                At Terragence, we believe that business is about building long-term partnerships, not just supplying products. </p>
+                At TerraX, we believe that business is about building long-term partnerships, not just supplying products. </p>
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@ export default function About() {
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-slate-900">Why Choose Terragence?</h2>
+            <h2 className="text-4xl font-bold text-slate-900">Why Choose TerraX?</h2>
             <p className="mt-4 text-lg text-slate-600">Your partner for quality, reliability, and competitive advantage.</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
