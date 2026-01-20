@@ -56,16 +56,16 @@ const Footer = () => {
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 sm:w-20 sm:h-20 bg-gradient-to-br from-white to-amber-50 rounded-lg flex items-center justify-center shadow-md">
                 <img
-                  src="img/TerraxLogo.png"
+                  src="/img/Terragence  LOGO  Full.png"
                   alt="Terragence Logo"
                   className="w-full h-full object-contain round-md"
                 />
               </div>
               <div>
                 <h3 className="font-bold text-lg sm:text-xl text-blue-600">
-                  TerraX
+                  Terragence
                 </h3>
-                <p className="text-sm text-slate-400">Trading And Services</p>
+                <p className="text-sm text-slate-400">Instruments Private Limited</p>
               </div>
             </div>
             <p className="text-slate-300 text-sm leading-relaxed">
@@ -76,7 +76,7 @@ const Footer = () => {
               <div className="flex items-start gap-2 text-slate-300">
                 <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
                 <span>
-                  TerraX Trading And Services<br/>
+                  Terragence Instruments Private Limited<br/>
                   Farangipete Bantwal, India<br/>
                   PIN CODE: 574 143
                 </span>
@@ -201,7 +201,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-slate-800 mt-8 sm:mt-12 pt-6 sm:pt-8 text-center text-sm text-slate-400">
-          © {new Date().getFullYear()} TerraX Trading And Services. | Site by{" "}
+          © {new Date().getFullYear()} Terragence Instruments Private Limited. | Site by{" "}
           <span 
             className="text-amber-400 hover:text-amber-300 cursor-pointer underline transition-colors inline-flex items-center"
             onClick={handleBrightMediaClick}

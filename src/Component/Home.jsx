@@ -35,10 +35,10 @@ export default function Home() {
           <div className="max-w-4xl mx-auto">
             {/* Main Heading */}
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-black text-white mb-4 mt-10 tracking-tighter leading-tight animate-fade-in-up">
-              TerraX
+              Terragence 
               <br />
               <span className="text-2xl sm:text-3xl md:text-4xl lg:text-7xl text-amber-400 font-bold">
-                Trading And Services
+                 Instruments 
               </span>
             </h1>
 

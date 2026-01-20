@@ -28,8 +28,8 @@ const NavBar = () => {
               <img src="img/Terragence  LOGO.png" style={{height:"44px"}}/>
             </div>
             <div>
-              <h1 className="font-extrabold text-blue-700 text-lg sm:text-xl tracking-tight">TerraX</h1>
-              <p className="text-xs text-blue-600 font-medium">Trading & Services</p>
+              <h1 className="font-extrabold text-blue-700 text-lg sm:text-xl tracking-tight">Terragence </h1>
+              <p className="text-xs text-blue-600 font-medium"> Instruments Pvt Ltd</p>
             </div>
           </Link>
 
