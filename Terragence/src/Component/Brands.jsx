@@ -34,7 +34,7 @@ export default function Brands() {
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-24 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           className="text-center mb-16"
@@ -43,7 +43,7 @@ export default function Brands() {
             Trusted by Industry Leaders
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-          Supplying a wide range of engineering products from leading brands across the globe.
+            Supplying a wide range of engineering products from leading brands across the globe.
 
           </p>
         </motion.div>
@@ -61,19 +61,19 @@ export default function Brands() {
             >
               <div className="aspect-square bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 flex items-center justify-center relative overflow-hidden border border-gray-100 hover:border-gray-200 p-4">
                 {/* Background gradient that appears on hover */}
-                <div 
+                <div
                   className="absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity duration-500"
                   style={{ backgroundColor: brand.color }}
                 />
-                
+
                 {/* Brand Name */}
                 <div className="relative z-10 text-center">
                   <p className="text-sm sm:text-base md:text-lg font-bold text-black 
    group-hover:text-[var(--brand-color)] 
    transition-colors duration-300 transform group-hover:scale-105 
    text-center break-words leading-tight px-1">
-  {brand.name}
-</p>
+                    {brand.name}
+                  </p>
                 </div>
 
                 {/* Hover effect overlay */}
@@ -84,7 +84,7 @@ export default function Brands() {
         </div>
 
         {/* Stats Section */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.2 }}
@@ -107,7 +107,7 @@ export default function Brands() {
         </motion.div>
 
         {/* Call to Action */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.4 }}
