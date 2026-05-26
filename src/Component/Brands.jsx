@@ -25,7 +25,7 @@ const brandLogos = [
   { name: "EPCOS", color: "#004C97" },
   { name: "BELDEN", color: "#00338D" },
   { name: "LEONI KERPEN", color: "#1C1C1C" },
-  { name: "VEGA", color: "#FF6347" }
+  { name: "HAULTA", color: "#FF6347" }
 ];
 
 
